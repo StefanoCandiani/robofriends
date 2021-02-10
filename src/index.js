@@ -4,10 +4,9 @@ import './index.css';
 import App from './Components/App'
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import {robots} from './Data/robots';
 
 ReactDOM.render(
-  <CardList robots={robots}/>,
+    <App/>,
   document.getElementById('root')
 );
 
